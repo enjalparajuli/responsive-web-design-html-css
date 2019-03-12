@@ -1,0 +1,39 @@
+<style>
+	#header{
+		min-height: 100px;
+		background-color: #555577;
+	}
+
+	#menu{
+		min-height: 40px;
+		background-color: #dfeaea
+	}
+	#body{
+		min-height: 400px;
+		margin-top: 2%;
+		background-color: #dfeaea;
+	}
+	#footer{
+		min-height: 100px;
+		margin-top: 2%;
+		background-color: #555577;
+	}
+	#header, #menu, #body, #footer{
+		margin-left: 10%;
+		margin-right: 10%;
+		box-shadow: 3px 5px 7px;
+		border: 1px solid black;
+	}
+
+	/*View port for fitting in any screen size*/
+	@viewport{
+		zoom: 1.0;
+		width: extend-to-zoom;
+	}
+
+	/*To fit to the internet explorer*/
+	@ms-viewport{
+		width: extend-to-zoom;
+		zoom: 1.0;
+	}
+</style>
